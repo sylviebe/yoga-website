@@ -1,0 +1,13 @@
+.aboutme h2 {
+    width: 100%;
+    height: auto;
+    background: green;
+    text-align: center;
+}
+
+.card-aboutme {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
