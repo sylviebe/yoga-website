@@ -1,0 +1,38 @@
+.cards {
+    height: 730px;
+}
+
+.cards h2 {
+    padding-top: 80px;
+    text-align: center;
+    color: rgb(38, 39, 38);
+}
+
+.yogastyle-cards {
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.yogastyle-cards li {
+    padding: 40px;
+}
+.yogastyle-cards p {
+    padding-top: 20px;
+}
+
+.pic-sitting {
+    width: 280px;
+    height: auto;
+}
+
+.pic-standing {
+    width: 280px;
+    height: auto;
+}
+
+.pic-headstand {
+    width: 280px;
+    height: auto;
+}

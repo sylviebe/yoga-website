@@ -4,11 +4,12 @@
 }
 
 .navbar {
-    margin: 30px;
+    height: 730px;
+    background: url(../../images/background-mountain.jpg);
+    background-size: 100%;
 }
 
 .navbar li {
-    padding-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -16,7 +17,8 @@
 }
 
 .navbar ul {
-    height: 100%;
+    padding: 20px 40px;
+
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -26,9 +28,28 @@
 .navbar a {
     text-decoration: none;
     font-size: 1.2rem;
+    color: rgb(53, 55, 53);
+    font-weight: bold;
 }
 
 .logo {
     width: 10%;
-    height: auto;
+}
+
+.placeholder h1 {
+    padding-top: 86px;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    /* opacity: 0.8; */
+    color: rgb(38, 39, 38);
+}
+
+.placeholder h3 {
+    padding-top: 41px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    /*  opacity: 0.8; */
+    color: rgb(38, 39, 38);
 }

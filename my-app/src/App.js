@@ -1,17 +1,19 @@
 import React from 'react';
 import './App.css';
 import Aboutme from './components/Aboutme/Aboutme';
-
 import Header from './components/Header/Header';
+import Myyoga from './components/Myyoga/Myyoga';
+import Classes from './components/Classes/Classes';
+
 function App() {
     return (
         <div className="App">
             <Header />
-            {/*  <div className="placeholder">
-                <h1>Welcome to Mirkarma Yoga</h1>
-                <h3>schön, dass du da bist !</h3>
-            </div> */}
             <Aboutme />
+            <hr />
+            <Classes />
+            <hr />
+            <Myyoga />
         </div>
     );
 }

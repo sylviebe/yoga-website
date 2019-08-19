@@ -1,0 +1,10 @@
+.timetable {
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.timetable li {
+    padding: 25px;
+}
